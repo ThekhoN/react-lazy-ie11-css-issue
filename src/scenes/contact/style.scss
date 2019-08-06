@@ -1,0 +1,13 @@
+.btn {
+    background: $blue;
+    color: white;
+}
+
+.btn.--is-disabled {
+    color: white;
+    background: grey;
+}
+
+.contact {
+    background: pink;
+}

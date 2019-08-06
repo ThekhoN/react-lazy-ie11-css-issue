@@ -52,7 +52,7 @@ module.exports = {
         use: { loader: "worker-loader" }
       },
       {
-        test: /\.scss$/,
+        test: /\.scss|\.css$/,
         use: [
           //  style-loader
           require.resolve("style-loader"),
